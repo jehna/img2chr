@@ -1,20 +1,38 @@
 {
   "name": "img2chr",
   "version": "1.0.0",
-  "description": "",
-  "bin": "./cli.js",
+  "description": "Convert any image to NES .chr file",
+  "bin": {
+    "img2chr": "./cli.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha index.spec.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "chr",
+    "nes",
+    "convert",
+    "image",
+    "png",
+    "gif",
+    "jpg"
+  ],
+  "author": "Jesse Luoto",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.0.0"
   },
   "dependencies": {
     "get-pixels": "^3.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jehna/img2chr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jehna/img2chr/issues"
+  },
+  "homepage": "https://github.com/jehna/img2chr#readme"
 }
